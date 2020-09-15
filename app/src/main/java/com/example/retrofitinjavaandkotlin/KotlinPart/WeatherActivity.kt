@@ -58,7 +58,7 @@ class WeatherActivity : AppCompatActivity() {
 
     companion object{
         var BaseUrl:String="http://api.openweathermap.org/"
-        var AppId="adff59405e9c12fef853673f99685361"
+        var AppId=""
         var lat = "35"
         var lon = "139"
     }
