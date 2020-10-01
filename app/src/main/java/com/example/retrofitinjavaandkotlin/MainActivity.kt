@@ -15,11 +15,13 @@ class MainActivity : AppCompatActivity() {
 
         kotlin.setOnClickListener{
             val intent=Intent(this,WeatherActivity::class.java)
+            intent.flags=Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
         }
 
         java.setOnClickListener {
             val intent=Intent(this,AvengerActivity::class.java)
+            intent.flags=Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
         }
 
