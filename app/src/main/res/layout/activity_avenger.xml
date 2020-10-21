@@ -11,7 +11,9 @@
             android:text="Names of Avengers"
             android:textAlignment="center"
             android:textSize="26sp"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:padding="10dp" />
 
         <ListView
             android:id="@+id/listViewHeroes"
