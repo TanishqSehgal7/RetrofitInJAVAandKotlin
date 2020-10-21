@@ -37,6 +37,9 @@
                 android:text="Open Kotlin Implementation of Retrofit"
                 android:textAlignment="center"
                 android:textSize="20sp"/>
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:padding="2dp"
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
